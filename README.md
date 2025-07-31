@@ -14,29 +14,7 @@ Este proyecto simula un sistema interno de recursos humanos para registrar y con
 - SQL Developer (para pruebas)
 - GitHub (repositorio de código)
 
-  ## Estructura del proyecto
-
-  # 📌 Proyecto PL/SQL: Registro y Control de Ausencias Laborales
-
-## 🎯 Objetivo
-Este proyecto simula un sistema interno de recursos humanos para registrar y controlar las ausencias laborales de los empleados en una empresa. Fue desarrollado completamente con PL/SQL, utilizando procedimientos almacenados, funciones, cursores, manejo de errores y paquetes.
-
-## 🛠️ Funcionalidades
-- Registrar ausencias por fecha, tipo (justificada/injustificada), cantidad de días.
-- Consultar ausencias totales por empleado, por mes o por tipo.
-- Validar que no se ingresen ausencias en fechas futuras.
-- Prevenir ausencias injustificadas excesivas (más de X días consecutivos).
-- Generar advertencias automáticas (opcional con trigger).
-- Automatizar chequeos mensuales con DBMS_SCHEDULER (opcional).
-
-## 🔧 Tecnologías y herramientas
-- Oracle Database 19c / 21c
-- PL/SQL (paquetes, funciones, procedimientos, excepciones)
-- SQL Developer (para pruebas)
-- GitHub (repositorio de código)
-- [Opcional] Oracle APEX para front-end visual
-
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 /ausencias-laborales/
 │
