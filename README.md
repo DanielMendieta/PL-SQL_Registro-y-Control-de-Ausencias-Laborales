@@ -9,7 +9,7 @@ Este proyecto simula un sistema interno de recursos humanos para registrar y con
 - Automatizar chequeos mensuales con DBMS_SCHEDULER (opcional).
 
 ## Tecnologías y herramientas
-- Oracle Database 19c / 21c
+- Oracle Database 19c
 - PL/SQL (paquetes, funciones, procedimientos, excepciones)
 - SQL Developer (para pruebas)
 - GitHub (repositorio de código)
