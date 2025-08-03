@@ -1,0 +1,16 @@
+Este procedimiento almacenado en PL/SQL permite registrar ausencias laborales de empleados en la tabla ausencias, 
+validando previamente varias condiciones de integridad y lógica del negocio.
+
+## El procedimiento registrar_ausencia realiza lo siguiente:
+
+-Verifica que el empleado exista en la tabla empleados.
+-Valida que la fecha de inicio no sea posterior a la fecha de fin.
+-Controla que no haya una ausencia duplicada para el mismo empleado y período.
+-Inserta el registro en la tabla ausencias.
+-Realiza un COMMIT explícito.
+
+## Validaciones
+*Empleado inexistente → Error: -20001
+*Fecha de inicio posterior a la de fin → Error: -20002
+*Ausencia duplicada → Error: -20003
+
