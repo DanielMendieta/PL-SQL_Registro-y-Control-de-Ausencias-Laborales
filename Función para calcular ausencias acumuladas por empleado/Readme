@@ -1,0 +1,7 @@
+Este paso incorpora lógica de negocio reutilizable dentro de una función PL/SQL que permite obtener de manera rápida 
+la cantidad total de ausencias registradas para un empleado determinado.
+
+## Ventajas
+
+-Usarla en reportes.
+-Integrarla en validaciones de procesos.
