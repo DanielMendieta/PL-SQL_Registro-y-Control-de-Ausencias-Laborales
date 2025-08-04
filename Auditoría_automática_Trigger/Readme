@@ -1,0 +1,14 @@
+Este paso implementa una funcionalidad clave para el control interno del sistema:
+registrar automáticamente cada inserción en la tabla ausencias mediante un trigger.
+
+Capturar información relevante cada vez que se agrega un registro de ausencia de un empleado, dejando constancia en una tabla especial de auditoría.
+
+## ¿Qué datos se registran?
+
+Cada vez que se inserta un registro en ausencias, el trigger guarda automáticamente:
+
+-ID del empleado.
+-Fecha de ausencia.
+-Motivo.
+-Usuario que realizó la inserción (USER).
+-Fecha y hora del registro (SYSDATE).
