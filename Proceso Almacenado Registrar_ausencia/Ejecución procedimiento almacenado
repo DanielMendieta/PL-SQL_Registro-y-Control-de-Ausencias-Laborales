@@ -1,0 +1,10 @@
+BEGIN
+    registrar_ausencia(
+        p_empleado_id    => 1,
+        p_fecha_inicio   => DATE '2025-07-10',
+        p_fecha_fin      => DATE '2025-07-12',
+        p_tipo_ausencia  => 'Vacaciones',
+        p_observaciones  => 'Viaje familiar'
+    );
+END;
+/
